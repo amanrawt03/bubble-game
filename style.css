@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel {
+    height: 85%;
+    width: 75%;
+    background-color: rgb(216, 124, 124);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#top-panel {
+    height: 17%;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(211, 75, 75), rgb(142, 31, 31));
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.heads h1 {
+    font-family: gillroy;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.heads .value_Box {
+    height: 34px;
+    width: 38px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(122, 27, 27);
+    /* padding: 16px; */
+}
+
+#bot-panel {
+    width: 100%;
+    height: calc(100% - 78px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#bot-panel h3{
+    display: flex;
+    
+    
+}
+
+.bubble {
+    margin: 4px 18px;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(28, 91, 28);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 540;
+    font-size: 20px;
+    color:#fff
+    }
+
+.bubble:hover{
+    background-color: rgb(20, 120, 20);
+    cursor: pointer;
+}
